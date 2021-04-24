@@ -41,8 +41,8 @@ Where X, Y, and Z are the unknown probability distributions, each with a mean an
 An example problem to be solved with this program is this:
 take 1 trip to 3 different grocery stores and blindly buy (i.e. without looking at individual prices) an amount of apples, bananas, and oranges at each store.
 the total price paid at each store are the outputs (M, N, O).
-The number of each fruit purchased at each store are the coefficients (a trhrough i).
+The number of each fruit purchased at each store are the coefficients (a through i).
 X, Y, and Z are the prices for each of the fruits.
 However, the prices will change between stores so X, Y, and Z are not set numbers and cannot be solved using traditional methods.
-Rather X, Y, and Z are distributiuons of prices. each with their own mean and standard deviation
+Rather X, Y, and Z are distributiuons of prices. each with their own mean and standard deviation.
 CRAZYALG.m solves for each mean and standard deviation using a modified genetic algorithm and monte carlo simulation.
