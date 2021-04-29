@@ -3,7 +3,7 @@ Coding Examples from college and other projects
 
 RMS2D.m
 Matlab program to calculate 2D spatial RMS using a variety of weighting functions.
-Initially used to calculate fracture intensity from curcature attributes extracted from seismic, but can be used on any spatial data.
+Initially used to calculate fracture intensity from curvature attributes extracted from seismic, but can be used on any spatial data.
 Imports tabular data using the XYZimporter.m program below.
 
 FRACAZ.m
@@ -29,14 +29,14 @@ Matlab program from my Master's thesis. Removes air noise from geophone recorded
 
 CRAZYALG.m
 Work in progress...
-designed to solve systems of linear equations where the variables are not set scalars, rather they are probablility distributions.
-M=a*X+b*Y+c*Z
-N=d*X+e*Y+f*Z
-O=g*X+h*Y+i*Z
+designed to solve systems of linear equations where the variables are not set scalars, rather they are probablility distributions. 
+M=a*X+b*Y+c*Z  
+N=d*X+e*Y+f*Z  
+O=g*X+h*Y+i*Z  
 
-Where M, N, and O are known outputs.
-Where a through i are known coefficients
-Where X, Y, and Z are the unknown probability distributions, each with a mean and standard deviation.
+Where M, N, and O are known outputs. 
+Where a through i are known coefficients. 
+Where X, Y, and Z are the unknown probability distributions, each with a mean and standard deviation. 
 
 An example problem to be solved with this program is this:
 take 1 trip to 3 different grocery stores and blindly buy (i.e. without looking at individual prices) an amount of apples, bananas, and oranges at each store.
